@@ -1,0 +1,22 @@
+<!--  generated on 2024-10-10 11:10:57 by Eclipse SUMO netconvert Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="C:\bin\cenario1.nod.xml"/>
+        <edge-files value="C:\bin\cenario1.edg.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\bin\cenario1.net.xml"/>
+    </output>
+
+</configuration>
+ -->
+<net xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+<location netOffset="0.00,0.00" convBoundary="0.00,0.00,10000.00,0.00" origBoundary="0.00,0.00,10000.00,0.00" projParameter="!"/>
+<edge id="p1toP2" from="p1" to="p2" priority="-1">
+<lane id="p1toP2_0" index="0" speed="50.00" length="10000.00" shape="0.00,-1.60 10000.00,-1.60"/>
+</edge>
+<junction id="p1" type="dead_end" x="0.00" y="0.00" incLanes="" intLanes="" shape="0.00,0.00 0.00,-3.20"/>
+<junction id="p2" type="dead_end" x="10000.00" y="0.00" incLanes="p1toP2_0" intLanes="" shape="10000.00,-3.20 10000.00,0.00"/>
+</net>

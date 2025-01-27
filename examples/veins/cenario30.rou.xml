@@ -1,0 +1,34 @@
+<routes>
+        <vType id="slowCar" 
+               accel="2.0"       
+               decel="0.5"       
+               length="5.0" 
+               minGap="0.0"      
+               maxSpeed="16.66"   
+               guiShape="passenger" 
+               sigma="0.2" 
+               tau="0.1"
+               carFollowModel="IDM"
+               speedFactor="1.2"
+               imperfection="1.0"/>      
+    
+        <vType id="fastCar" 
+               accel="3.0"       
+               decel="2.0"       
+               length="5.0" 
+               minGap="0.0"      
+               maxSpeed="100.0"   
+               guiShape="passenger" 
+               sigma="0.2" 
+               tau="0.1"
+               carFollowModel="IDM"
+               speedFactor="1.2"
+               imperfection="1.0"/>
+               
+    
+        <route id="route_1" edges="p1toP2"/>
+    
+        <vehicle id="vehicle_1" type="slowCar" route="route_1" depart="0" />
+        <vehicle id="vehicle_2" type="fastCar" route="route_1" depart="3" />
+    </routes>
+    
