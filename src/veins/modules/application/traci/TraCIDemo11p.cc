@@ -51,7 +51,7 @@ void TraCIDemo11p::sendWSM()
               << " Momento de Envio: " << std::fixed << std::setprecision(3) << simTime().dbl() << "\n";
     }
 
-    sendDown(wsm);
+    sendDelayedDown(wsm, uniform(0.01, 0.2));
 
     // Agendar o próximo envio a cada 1 segundo
     scheduleAt(simTime() + 1.0, beaconEvent);
@@ -75,24 +75,24 @@ void TraCIDemo11p::onWSM(BaseFrame1609_4* frame)
 
     // Escrever legenda e informações no arquivo de recepção de forma compacta
     if (file3.tellp() == 0) { // Verifica se é o primeiro registro
-        file3 << "ID do Veículo que Recebeu: ID da Mensagem: Momento que Recebeu\n";
+        file3 << "ID do Veículo que Recebeu: ID da Mensagem: Momento que Recebeu: Origem\n";
     }
+
+    std::string origem = (wsm->getSenderAddress() == -1) ? "RSU" : "Veículo";
+
     file3 << "ID do Veículo que Recebeu: " << myId
           << " ID da Mensagem: " << wsm->getSerial()
-          << " Momento que Recebeu: " << simTime() << "\n";
+          << " Momento que Recebeu: " << simTime()
+          << " Origem: " << origem << "\n";
 
-    // Registrar que o veículo recebeu a mensagem
-    // (Você pode adicionar outras lógicas de registro aqui, se necessário)
-
-    // Criar mensagem de resposta
     TraCIDemo11pMessage* response = new TraCIDemo11pMessage();
-    response->setByteLength(44);
+    response->setByteLength(62);
     response->setSenderAddress(myId);
 
     // Garantir ID único para resposta, combinando myId e messageCounter
     response->setSerial(myId * 10000 + (messageCounter++));
 
-    sendDown(response);
+    sendDelayedDown(response, uniform(0.01, 0.2));
 }
 
 void TraCIDemo11p::handleSelfMsg(cMessage* msg)
