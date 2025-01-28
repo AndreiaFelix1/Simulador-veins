@@ -1,0 +1,24 @@
+ID da Mensagem Recebida pela RSU: Tempo de Recebimento: ID da Mensagem de Resposta Criado: Momento que Enviou
+ID da Mensagem Recebida pela RSU: 760012 Tempo de Recebimento: 41.00053392518 ID da Mensagem de Resposta Criado: 760013 Momento que Enviou: 41.20053392518
+ID da Mensagem Recebida pela RSU: 820011 Tempo de Recebimento: 44.00023487614 ID da Mensagem de Resposta Criado: 820012 Momento que Enviou: 44.20023487614
+ID da Mensagem Recebida pela RSU: 820012 Tempo de Recebimento: 45.00024218319 ID da Mensagem de Resposta Criado: 820013 Momento que Enviou: 45.20024218319
+ID da Mensagem Recebida pela RSU: 880010 Tempo de Recebimento: 47.000531677796 ID da Mensagem de Resposta Criado: 880011 Momento que Enviou: 47.200531677796
+ID da Mensagem Recebida pela RSU: 280088 Tempo de Recebimento: 76.000819086727 ID da Mensagem de Resposta Criado: 280089 Momento que Enviou: 76.200819086727
+ID da Mensagem Recebida pela RSU: 280090 Tempo de Recebimento: 78.000819450893 ID da Mensagem de Resposta Criado: 280091 Momento que Enviou: 78.200819450893
+ID da Mensagem Recebida pela RSU: 460076 Tempo de Recebimento: 80.000819990013 ID da Mensagem de Resposta Criado: 460077 Momento que Enviou: 80.200819990013
+ID da Mensagem Recebida pela RSU: 340091 Tempo de Recebimento: 81.00081976951 ID da Mensagem de Resposta Criado: 340092 Momento que Enviou: 81.20081976951
+ID da Mensagem Recebida pela RSU: 1720011 Tempo de Recebimento: 88.0002430806 ID da Mensagem de Resposta Criado: 1720012 Momento que Enviou: 88.2002430806
+ID da Mensagem Recebida pela RSU: 520083 Tempo de Recebimento: 90.000818380742 ID da Mensagem de Resposta Criado: 520084 Momento que Enviou: 90.200818380742
+ID da Mensagem Recebida pela RSU: 820071 Tempo de Recebimento: 96.000825919797 ID da Mensagem de Resposta Criado: 820072 Momento que Enviou: 96.200825919797
+ID da Mensagem Recebida pela RSU: 160159 Tempo de Recebimento: 136.000818234885 ID da Mensagem de Resposta Criado: 160160 Momento que Enviou: 136.200818234885
+ID da Mensagem Recebida pela RSU: 1840067 Tempo de Recebimento: 141.000817788051 ID da Mensagem de Resposta Criado: 1840068 Momento que Enviou: 141.200817788051
+ID da Mensagem Recebida pela RSU: 580146 Tempo de Recebimento: 146.001108623425 ID da Mensagem de Resposta Criado: 580147 Momento que Enviou: 146.201108623425
+ID da Mensagem Recebida pela RSU: 340182 Tempo de Recebimento: 152.000818129735 ID da Mensagem de Resposta Criado: 340183 Momento que Enviou: 152.200818129735
+ID da Mensagem Recebida pela RSU: 340196 Tempo de Recebimento: 164.000818757487 ID da Mensagem de Resposta Criado: 340197 Momento que Enviou: 164.200818757487
+ID da Mensagem Recebida pela RSU: 580172 Tempo de Recebimento: 167.000818414508 ID da Mensagem de Resposta Criado: 580173 Momento que Enviou: 167.200818414508
+ID da Mensagem Recebida pela RSU: 340204 Tempo de Recebimento: 171.000819962683 ID da Mensagem de Resposta Criado: 340205 Momento que Enviou: 171.200819962683
+ID da Mensagem Recebida pela RSU: 820172 Tempo de Recebimento: 185.000817009522 ID da Mensagem de Resposta Criado: 820173 Momento que Enviou: 185.200817009522
+ID da Mensagem Recebida pela RSU: 1300158 Tempo de Recebimento: 187.000233468054 ID da Mensagem de Resposta Criado: 1300159 Momento que Enviou: 187.200233468054
+ID da Mensagem Recebida pela RSU: 820177 Tempo de Recebimento: 190.00081757694 ID da Mensagem de Resposta Criado: 820178 Momento que Enviou: 190.20081757694
+ID da Mensagem Recebida pela RSU: 1660143 Tempo de Recebimento: 197.00081781161 ID da Mensagem de Resposta Criado: 1660144 Momento que Enviou: 197.20081781161
+ID da Mensagem Recebida pela RSU: 820187 Tempo de Recebimento: 199.000820812816 ID da Mensagem de Resposta Criado: 820188 Momento que Enviou: 199.200820812816

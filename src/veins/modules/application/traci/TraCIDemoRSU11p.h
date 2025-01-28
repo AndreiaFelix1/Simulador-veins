@@ -31,8 +31,10 @@ namespace veins {
  */
 class VEINS_API TraCIDemoRSU11p : public DemoBaseApplLayer {
 protected:
+    void initialize(int stage);
     void onWSM(BaseFrame1609_4* wsm) override;
     void onWSA(DemoServiceAdvertisment* wsa) override;
+    void finish();
 };
 
 } // namespace veins

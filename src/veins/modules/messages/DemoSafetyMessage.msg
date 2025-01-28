@@ -27,11 +27,6 @@ import veins.base.utils.SimpleAddress;
 namespace veins;
 
 packet DemoSafetyMessage extends BaseFrame1609_4 {
-    
     Coord senderPos;
     Coord senderSpeed;
-    int senderId;
-    Coord senderAcceleration;    // Aceleração do veículo remetente
-    double senderAngle;
-    int packetId;  
 }

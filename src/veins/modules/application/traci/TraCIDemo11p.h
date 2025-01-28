@@ -43,51 +43,25 @@ namespace veins {
 class VEINS_API TraCIDemo11p : public DemoBaseApplLayer {
 public:
     void initialize(int stage) override;
-    void logReceivedPacket(int vehicleId, int packetId, simtime_t receiveTime);
+    void finish();
 
 private:
-    // Métricas da RSU
-    int rsuPacketsSent;
-    int rsuPacketsReceived;
-    int rsuPacketsLost;
-    int rsuPacketsRetransmitted;
-
-    // Métricas do veículo
-    int vehiclePacketsSent;
-    int vehiclePacketsReceived;
-    int vehiclePacketsLost;
-    int vehiclePacketsRetransmitted;
-
-    double totalTransmissionTime; // Tempo total de transmissão
-    int totalTransmissions;      // Contagem total de transmissões
-
-    // Arquivo para métricas
-    std::ofstream metricsFile;
-
-    static int nextPacketId;
-
+    cMessage* beaconEvent = nullptr;
+    int messageCounter;
 
 protected:
     simtime_t lastDroveAt;
     bool sentMessage;
     int currentSubscribedServiceId;
-    bool isVehiclePacket(DemoSafetyMessage* wsm);
 
 protected:
-    void sendBeacon();
-    void onBSM(DemoSafetyMessage* bsm) override;
     void onWSM(BaseFrame1609_4* wsm) override;
     void onWSA(DemoServiceAdvertisment* wsa) override;
 
     void handleSelfMsg(cMessage* msg) override;
     void handlePositionUpdate(cObject* obj) override;
-    void finish();
-    void logMetrics();
-    void handleLowerMsg(cMessage* msg);
-    void checkAndTrackPacket(cMessage* msg);
-    void logPacketSent(const std::string& sender, int packetId, double time, int byteLength);
-    void logRSUPacketReceived(int receivedPacketId, double receivedTime, int responsePacketId, double responseTime);
-    void logPacketReceivedByVehicle(int packetId, double time);
+
+    void sendWSM();
 };
 
 } // namespace veins
