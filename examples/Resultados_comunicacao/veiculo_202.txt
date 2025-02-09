@@ -1,0 +1,24 @@
+ID do Veículo: ID da Mensagem: Tempo de Envio da Mensagem: ID do Remetente que Precisa Receber: 99999
+ID do Veículo: 202 ID da Mensagem: 0 Tempo de Envio da Mensagem: 94.000 ID do Remetente que Precisa Receber: 99999
+ID do Veículo: 202 ID da Mensagem: 1 Tempo de Envio da Mensagem: 95.000 ID do Remetente que Precisa Receber: 99999
+ID do Veículo: 202 ID da Mensagem: 2 Tempo de Envio da Mensagem: 96.000 ID do Remetente que Precisa Receber: 99999
+ID do Veículo: 202 ID da Mensagem: 3 Tempo de Envio da Mensagem: 97.000 ID do Remetente que Precisa Receber: 99999
+ID do No que Enviou a Mensagem: 99999 ID da Mensagem recebida: 356 Tempo de Recebimento da Mensagem: 97.255
+ID do No que Enviou a Mensagem: 99999 ID da Mensagem recebida: 359 Tempo de Recebimento da Mensagem: 97.354
+ID do No que Enviou a Mensagem: 99999 ID da Mensagem recebida: 353 Tempo de Recebimento da Mensagem: 97.355
+ID do Veículo: 202 ID da Mensagem: 4 Tempo de Envio da Mensagem: 98.000 ID do Remetente que Precisa Receber: 99999
+ID do No que Enviou a Mensagem: 99999 ID da Mensagem recebida: 372 Tempo de Recebimento da Mensagem: 98.255
+ID do No que Enviou a Mensagem: 99999 ID da Mensagem recebida: 366 Tempo de Recebimento da Mensagem: 98.255
+ID do No que Enviou a Mensagem: 99999 ID da Mensagem recebida: 371 Tempo de Recebimento da Mensagem: 98.293
+ID do No que Enviou a Mensagem: 99999 ID da Mensagem recebida: 369 Tempo de Recebimento da Mensagem: 98.354
+ID do No que Enviou a Mensagem: 99999 ID da Mensagem recebida: 368 Tempo de Recebimento da Mensagem: 98.355
+ID do Veículo: 202 ID da Mensagem: 5 Tempo de Envio da Mensagem: 99.000 ID do Remetente que Precisa Receber: 99999
+ID do No que Enviou a Mensagem: 99999 ID da Mensagem recebida: 376 Tempo de Recebimento da Mensagem: 99.100
+ID do No que Enviou a Mensagem: 99999 ID da Mensagem recebida: 385 Tempo de Recebimento da Mensagem: 99.191
+ID do No que Enviou a Mensagem: 99999 ID da Mensagem recebida: 384 Tempo de Recebimento da Mensagem: 99.254
+ID do No que Enviou a Mensagem: 99999 ID da Mensagem recebida: 374 Tempo de Recebimento da Mensagem: 99.255
+ID do No que Enviou a Mensagem: 99999 ID da Mensagem recebida: 379 Tempo de Recebimento da Mensagem: 99.255
+ID do No que Enviou a Mensagem: 99999 ID da Mensagem recebida: 377 Tempo de Recebimento da Mensagem: 99.255
+ID do No que Enviou a Mensagem: 99999 ID da Mensagem recebida: 378 Tempo de Recebimento da Mensagem: 99.272
+ID do No que Enviou a Mensagem: 99999 ID da Mensagem recebida: 382 Tempo de Recebimento da Mensagem: 99.274
+ID do Veículo: 202 ID da Mensagem: 6 Tempo de Envio da Mensagem: 100.000 ID do Remetente que Precisa Receber: 99999

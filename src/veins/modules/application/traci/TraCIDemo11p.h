@@ -22,7 +22,11 @@
 
 #pragma once
 
+#include "veins/modules/application/traci/TraCIDemo11pMessage_m.h"
+
 #include "veins/modules/application/ieee80211p/DemoBaseApplLayer.h"
+#include <fstream>
+#include <map>
 
 namespace veins {
 
@@ -41,6 +45,10 @@ namespace veins {
  */
 
 class VEINS_API TraCIDemo11p : public DemoBaseApplLayer {
+
+    std::ofstream& getFileForVehicle(int vehicleId);
+    std::map<int, std::ofstream> vehicleFiles;
+
 public:
     void initialize(int stage) override;
     void finish();

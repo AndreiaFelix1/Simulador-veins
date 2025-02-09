@@ -1,0 +1,5 @@
+ID do Veículo: ID da Mensagem: Tempo de Envio da Mensagem: ID do Remetente que Precisa Receber: 99999
+ID do Veículo: 208 ID da Mensagem: 0 Tempo de Envio da Mensagem: 97.000 ID do Remetente que Precisa Receber: 99999
+ID do Veículo: 208 ID da Mensagem: 1 Tempo de Envio da Mensagem: 98.000 ID do Remetente que Precisa Receber: 99999
+ID do Veículo: 208 ID da Mensagem: 2 Tempo de Envio da Mensagem: 99.000 ID do Remetente que Precisa Receber: 99999
+ID do Veículo: 208 ID da Mensagem: 3 Tempo de Envio da Mensagem: 100.000 ID do Remetente que Precisa Receber: 99999

@@ -29,4 +29,6 @@ namespace veins;
 packet DemoSafetyMessage extends BaseFrame1609_4 {
     Coord senderPos;
     Coord senderSpeed;
+    
+    int senderId;
 }
